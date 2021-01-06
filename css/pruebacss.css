@@ -1,0 +1,29 @@
+ul {
+  list-style: none; }
+  ul a {
+    text-decoration: none; }
+
+.header__.cabeza {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(4, 36, 52, 0.3) 0%, rgba(4, 36, 52, 0.7) 75%, #BFDDDE 100%), url("../assets/images/LOGS.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
+  .header__.cabeza .contendor_de_los_h {
+    display: flex;
+    align-items: center;
+    text-align: center; }
+  .header__.cabeza .contenedor_articles {
+    box-sizing: border-box;
+    margin: auto; }
+  .header__.cabeza .door {
+    display: flex;
+    align-items: left; }
+  .header__.cabeza .arquitectura {
+    display: flex;
+    align-items: left; }
