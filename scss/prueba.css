@@ -1,0 +1,38 @@
+ul {
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+.header__.cabeza {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 36, 52, 0.3)), color-stop(75%, rgba(4, 36, 52, 0.7)), to(#BFDDDE)), url("../assets/images/LOGS.jpg");
+  background: linear-gradient(to bottom, rgba(4, 36, 52, 0.3) 0%, rgba(4, 36, 52, 0.7) 75%, #BFDDDE 100%), url("../assets/images/LOGS.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.header__.cabeza .contendor_de_los_h {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.header__.cabeza .contenedor_articles {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: auto;
+}
+/*# sourceMappingURL=prueba.css.map */
