@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  background-color: #04243b;
+}
+
+.menum {
+  -webkit-transform: translateX(860px);
+          transform: translateX(860px);
+}
+
+.cabeza {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 36, 52, 0.3)), color-stop(75%, rgba(4, 36, 52, 0.7)), to(#BFDDDE)), url("../assets/images/LOGS.jpg");
+  background: linear-gradient(to bottom, rgba(4, 36, 52, 0.3) 0%, rgba(4, 36, 52, 0.7) 75%, #BFDDDE 100%), url("../assets/images/LOGS.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  -webkit-animation-name: banner;
+          animation-name: banner;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+}
+
+@-webkit-keyframes banner {
+  0% {
+    background-image: url(../assets/images/LOGS.jpg);
+  }
+  30% {
+    background-image: url(../assets/images/PRUEBA.jpg);
+  }
+}
+
+@keyframes banner {
+  0% {
+    background-image: url(../assets/images/LOGS.jpg);
+  }
+  30% {
+    background-image: url(../assets/images/PRUEBA.jpg);
+  }
+}
+
+.contendor_de_los_h {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.contenedor_video {
+  display: inline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 5px solid rgba(4, 36, 52, 0.7);
+  width: 300px;
+  height: 300px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+.header__.cabeza {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 36, 52, 0.3)), color-stop(75%, rgba(4, 36, 52, 0.7)), to(#BFDDDE)), url("../assets/images/LOGS.jpg");
+  background: linear-gradient(to bottom, rgba(4, 36, 52, 0.3) 0%, rgba(4, 36, 52, 0.7) 75%, #BFDDDE 100%), url("../assets/images/LOGS.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.header__.cabeza .contendor_de_los_h {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.header__.cabeza .contenedor_articles {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: auto;
+}
+
+.header__.cabeza .door {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.header__.cabeza .arquitectura {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.section2-articulos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section2-articulos .contenedor_articles {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 5px solid rgba(4, 36, 52, 0.7);
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.section2-articulos .contenedor_articles .door {
+  width: 300px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section2-articulos .contenedor_articles2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 5px solid rgba(4, 36, 52, 0.7);
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section2-articulos .contenedor_articles2 .arquitectura {
+  width: 300px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=estilo.css.map */
